@@ -6,7 +6,7 @@ We
 used [Trunk-based development (TBD)](https://launchdarkly.com/blog/introduction-to-trunk-based-development/)
 as the branching strategy.
 
-![**e.g.**][1]
+![e.g][1]
 
 The idea of this strategy is that all developers integrate their changes directly to a shared trunk
 every day (in our case, our `main` branch), a shared trunk that is always in a releasable state. No
@@ -40,4 +40,4 @@ Where
     feature/mariodev-at/add-new-feature
 
 
-[1]: ./images/truunkbasedevelopment.png
+[1]: ./images/trunnkbasedevelopment.png
