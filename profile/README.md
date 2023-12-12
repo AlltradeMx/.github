@@ -40,4 +40,4 @@ Where
     feature/mariodev-at/add-new-feature
 
 
-[1]: ./images/trunnkbasedevelopment.png
+[1]: ../images/trunnkbasedevelopment.png
