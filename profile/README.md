@@ -1,35 +1,19 @@
-<style>
-    .label {
-        display: block;
-        max-width:250px;
-        text-decoration:none;
-        color: white;
-        margin: 10px;
-        padding: 5px;
-        border-radius: 5px;
-        pointer-events: none;
-        text-align: center;
-    }
-
-    .success {background-color: #04AA6D;} /* Green */
-    .info {background-color: #2196F3;} /* Blue */
-    .warning {background-color: #ff9800;} /* Orange */
-    .danger {background-color: #f44336;} /* Red */ 
-    .other {background-color: #e7e7e7; color: black;} /* Gray */ 
-</style>
-
 # AllTradeMx Tech Rules 📄
 
 ## 1. Project structure 🖥️
 
-> [!IMPORTANT] All source files should reside in a src/ directory, and all test files should be in a tests/ directory. (we will use this folder structure for any project, cause this is an scalable solution), also we need to include other folders like, data, domain, etc. in the root of the project, you can see an example of this in every project our github repos.
+> [!IMPORTANT]
+> 
+> All source files should reside in a src/ directory, and all test files should be in a tests/ directory. (we will use this folder structure for any project, cause this is an scalable solution), also we need to include other folders like, data, domain, etc. in the root of the project, you can see an example of this in every project our github repos.
 
 ### Directory layout and file organization:
 > ![e.g][2]
 
 
 ## 2. Error Handling:
->[!IMPORTANT] For a better optimization when dealing an error, please follow the correct guidelines to report the errors on the application.
+>[!IMPORTANT]
+>
+>For a better optimization when dealing an error, please follow the correct guidelines to report the errors on the application.
 
 - Use try-catch blocks for synchronous code and .catch() for promises.
 - Use the throw keyword for custom errors and always propagate them to a central error handler.
@@ -40,23 +24,41 @@
 
 ## 3. Logging
 
->[!NOTE] Always log API requests, database operations, and error messages.
+>[!NOTE]
+>
+> Always log API requests, database operations, and error messages.
 
 In this case, you should implement the following logging library called [Rollbar](https://rollbar.com) to log all API requests, database operations and error messages to make a registry of them.
 
 ### Log levels (debug, info, warning, error):
 
-Use log levels to specify:
+> Use log levels to specify:
 
-<span class="label success">Debug - Internal system details.</span>
-<span class="label info">Info - Successful operations.</span>
-<span class="label warning">Warning - Recoverable issues.</span>
-<span class="label danger">Error - Critical failures.</span>
+| 💻: DEBUG           |
+|:----------------------------|
+| Internal system details   |
+
+
+| ℹ️ INFO               |
+|:----------------------------|
+| Successful operations |
+
+| :warning: WARNING           |
+|:----------------------------|
+| Another way to warn you     |
+
+
+| :boom: ERROR               |
+|:----------------------------|
+| Critical failures
 
 ## 4. Version Control
-
->[!TIP] You need to follow all the requirements in the documentation to be able to send pull requests and make it possible to be approved by the team.
+>[!TIP]
+>
+>You need to follow all the requirements in the documentation to be able to send pull requests and make it possible to be approved by the team.
 ### Branch strategy
+
+
 
 We
 used [Trunk-based development (TBD)](https://launchdarkly.com/blog/introduction-to-trunk-based-development/)
@@ -76,7 +78,7 @@ state of the codebase as a near-constant activity.
 In order to have a great administration with our branches, we have established a convention that
 will allow us to identify them more quickly, the structure is as follows:
 
-    type/username/short-description
+    type/username/clickup-ticket/short-description
 
 Where
 
@@ -93,11 +95,11 @@ Where
 
 **e.g.**
 
-    feature/mariodev-at/add-new-feature
+    feature/mariodev-at/Cu-123456/add-new-feature
 
 ### Commit message formats
 
-Use the format: <label style="background-color: #262626; color: #ec4899; padding: 4px; border-radius: 5px;">[type]: [short description]</label>. For instance, <label style="background-color: #262626; color: #ec4899; padding: 4px; border-radius: 5px;">Fix: resolve login bug.</label>
+Use the format: <code style="background-color: #262626; color: #ec4899; padding: 4px; border-radius: 5px;"> [type]: [short description]</code>. For instance, <code style="background-color: #262626; color: #ec4899; padding: 4px; border-radius: 5px;">Fix: resolve login bug.</code>
 
 
 ### Merge vs. Rebase
@@ -105,15 +107,19 @@ Use the format: <label style="background-color: #262626; color: #ec4899; padding
 - Always pull the latest changes before rebasing and resolve conflicts locally.
 
 ## 5. Clean Architecture.
->[!WARNING] Without this knowledge you can create new features for the project
+>[!WARNING]
+>
+> Without this knowledge you can create new features for the project
 <img src="../images/CleanArchitecture.jpg" alt="drawing" width="600"/>
 
-We implement the following architecture into our projects [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+> We implement the following architecture into our projects [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 
 ## 6. Solid principles.
 
->[!WARNING] Without this principles you can create new features for the project
+>[!WARNING]
+>
+> Without this principles you can create new features for the project
 <img src="../images/solid.png" alt="drawing" width="650"/>
 
 > We follow the following best practices for code creation. [SOLID PRINCIPLES](https://www.baeldung.com/solid-principles)
