@@ -110,7 +110,7 @@ Use the format: <code style="background-color: #262626; color: #ec4899; padding:
 >[!WARNING]
 >
 > Without this knowledge you can create new features for the project
-<img src="../images/CleanArchitecture.jpg" alt="drawing" width="600"/>
+<img src="https://github.com/AlltradeMx/.github/blob/main/images/CleanArchitecture.jpg" alt="drawing" width="600"/>
 
 > We implement the following architecture into our projects [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
@@ -120,10 +120,10 @@ Use the format: <code style="background-color: #262626; color: #ec4899; padding:
 >[!WARNING]
 >
 > Without this principles you can create new features for the project
-<img src="../images/solid.png" alt="drawing" width="650"/>
+<img src="https://github.com/AlltradeMx/.github/blob/main/images/solid.png" alt="drawing" width="650"/>
 
 > We follow the following best practices for code creation. [SOLID PRINCIPLES](https://www.baeldung.com/solid-principles)
 
 
-[1]: ../images/trunnkbasedevelopment.png
-[2]: ../images/tree.png
+[1]: https://github.com/AlltradeMx/.github/blob/main/images/trunnkbasedevelopment.png
+[2]: https://github.com/AlltradeMx/.github/blob/main/images/tree.png
